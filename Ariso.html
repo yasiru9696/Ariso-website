@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>SaaS 1 — TheSaaS Sample Demo Landing Page</title>
+
+    <!-- Styles -->
+    <link href="./Ariso/page.min.css" rel="stylesheet">
+    <link href="./Ariso/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="./Ariso/fav.png">
+    <link rel="icon" href="./Ariso/fav.png">
+  <style type="text/css">:root{--formito-accent-color: #7854f7;--formito-modal-width: 480px;--formito-modal-height: 840px}.formito-app[data-button-shape='square'] .formito-fab,.formito-app[data-button-shape='square'] .formito-fab-close{border-radius:0}.formito-app[data-button-shape='round'] .formito-fab,.formito-app[data-button-shape='round'] .formito-fab-close{border-radius:8px}.formito-app[data-position='bottomLeft'] .formito-modal{left:0;right:auto;transform-origin:30px bottom}.formito-app[data-position='bottomLeft'] .formito-launcher{left:0;right:auto;align-items:flex-start}.formito-app[data-position='bottomLeft'] .formito-message{transform-origin:30px bottom}.formito-app[data-position='bottomLeft'] .formito-message::before,.formito-app[data-position='bottomLeft'] .formito-message::after{left:22px;right:auto}.formito-app[data-position='bottomLeft'] .formito-message span{left:0;right:auto}.formito-app[data-position='bottomLeft'] .formito-radial{transform-origin:left bottom;background:radial-gradient(at left bottom, rgba(29,39,54,0.08) 0%, rgba(29,39,54,0) 72%)}.formito-app.formito-trigger-click.open .formito-modal,.formito-app.formito-trigger-click.open .formito-modal-overlay{visibility:visible;opacity:1}.formito-app.formito-trigger-fab.open .formito-modal{opacity:1;visibility:visible;transform:scale(1, 1)}.formito-modal{all:initial;position:fixed;overflow:hidden;height:calc(100vh - 120px);max-height:var(--formito-modal-height, 840px);width:calc(100vw - 40px);max-width:var(--formito-modal-width, 480px);background:white;border-radius:8px;box-shadow:0px 3px 30px rgba(0,0,0,0.12);transition:0.4s cubic-bezier(0.04, 0.27, 0.26, 1.05);transition-property:opacity, transform;z-index:1200}.formito-modal iframe{background:#f2f3f5}.formito-trigger-fab .formito-modal{bottom:80px;right:0;margin:20px;transform:scale(0, 0) translateY(50px);transform-origin:calc(100% - 30px) bottom;opacity:0}.formito-trigger-click .formito-modal{visibility:hidden;opacity:0;top:50%;left:50%;height:calc(100vh - 40px);transform:translate(-50%, -50%)}.formito-modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;pointer-events:auto;background-color:rgba(0,0,0,0.35);backdrop-filter:blur(2px);z-index:1110;transition:0.3s ease-out;visibility:hidden;opacity:0}.formito-launcher{position:fixed;right:0;bottom:0;display:flex;flex-direction:column-reverse;align-items:flex-end;pointer-events:none}.formito-radial{position:absolute;width:500px;height:500px;bottom:0px;pointer-events:none;background:radial-gradient(at right bottom, rgba(29,39,54,0.08) 0%, rgba(29,39,54,0) 72%);transition:0.3s ease-out;transform:scale(0, 0);opacity:0;transform-origin:bottom right}.formito-app.open .formito-radial{opacity:1;transform:scale(1, 1)}.formito-fab{all:initial;position:relative;z-index:10000;outline:none;border:none;margin:20px;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:none;background:var(--formito-accent-color, "#7854f7") url("https://s.formito.com/img/icon-fab/3.png") no-repeat center center;box-shadow:rgba(0,0,0,0.06) 0px 1px 6px 0px,rgba(0,0,0,0.16) 0px 2px 32px 0px;background-size:cover;overflow:hidden;opacity:0;transform:scale(0, 0);transition:all 0.3s ease-out}.formito-fab .formito-fab-close{display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;background-color:var(--formito-accent-color, "#7854f7");transform:scale(0, 0);transition:all 0.3s ease-out;font-size:32px;color:#fff}.formito-launcher.reveal .formito-fab{opacity:1;transform:scale(1, 1)}.formito-fab:hover{transform:scale(1.06, 1.06) !important}.formito-fab:focus{outline:none}.formito-app.open .formito-fab-close{transform:scale(1, 1)}.formito-message{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";margin:20px;margin-bottom:0;padding:16px;max-width:280px;background:#fff;border-radius:8px;box-shadow:0 0 25px 0 rgba(0,0,64,0.1);line-height:1.5;border:1px solid #f2f3f4;cursor:pointer;pointer-events:auto;opacity:0;transform:scale(0, 0) translateY(20px);transform-origin:calc(100% - 30px) bottom;transition:0.3s ease-out 1s}.formito-message::before{position:absolute;bottom:-10px;right:22px;content:'';width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:10px solid #f2f3f4}.formito-message::after{position:absolute;bottom:-9px;right:24px;content:'';width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:9px solid #fff}.formito-message span{position:absolute;top:-28px;right:0;font-weight:300;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:10rem;background-color:rgba(0,0,0,0.25);opacity:0;text-decoration:none;cursor:pointer;user-select:none;transition:0.3s ease-out}.formito-message span:hover{background-color:rgba(0,0,0,0.5)}.formito-message span::before{content:'\00d7';margin-top:-6px;font-size:22px;color:rgba(255,255,255,0.9)}.formito-message span::after{content:'';position:absolute;bottom:-10px;display:block;width:100%;height:40px;z-index:-1}.formito-message h5{font-family:Roboto, 'Open Sans', Arial, sans-serif;font-size:15px;margin:0;font-weight:600;color:#464646;letter-spacing:0;line-height:1.5}.formito-message p{margin:0;font-size:15px;color:#646464}.formito-message h5+p{margin-top:8px}.formito-app.open .formito-message{opacity:0;visibility:hidden;transform:scale(0, 0);transition:0.3s ease-out}.formito-launcher.reveal .formito-message{opacity:1;transform:scale(1, 1) translateY(0)}.formito-message:hover span{top:-38px;opacity:1}
+</style></head>
+
+  <body data-aos-easing="ease" data-aos-duration="1500" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed="" class="">
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="smart">
+      <div class="container">
+
+        <div class="navbar-left mr-4">
+          <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
+          <a class="navbar-brand" href="#">
+            <img class="logo-dark" src="./Ariso/logo-dark.png" alt="logo">
+            <img class="logo-light" src="./Ariso/logo-light.png" alt="logo">
+          </a>
+        </div>
+
+        <section class="navbar-mobile">
+          <nav class="nav nav-navbar mr-auto">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#section-features">Features</a>
+            <a class="nav-link" href="#section-pricing">Pricing</a>
+            <a class="nav-link" href="#">Resources</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+
+          <div class="d-none d-stick-block">
+            <a class="btn btn-sm btn-light ml-lg-5 mr-2" href="#">Login</a>
+            <a class="btn btn-sm btn-success" href="#">Sign up</a>
+          </div>
+        </section>
+
+      </div>
+    </nav><!-- /.navbar -->
+
+
+    <!-- Header -->
+    <header id="home" class="header text-white h-fullscreen text-center text-lg-left" style="background-color: #24292e">
+      <canvas class="constellation" data-color="rgba(255,255,255,0.3)" width="1366" height="657"></canvas>
+      <div class="container">
+        <div class="row align-items-center h-100">
+
+          <div class="col-lg-6">
+            <h1>How developers work</h1>
+            <p class="lead mt-5 mb-8">Support your workflow with lightweight tools and features. Then work how you work best—we'll follow your lead.</p>
+            <p class="gap-xy">
+              <a class="btn btn-round btn-outline-light mw-150" href="#">Learn more</a>
+              <a class="btn btn-round btn-light mw-150" href="#">Sign up</a>
+            </p>
+          </div>
+
+          <div class="col-lg-5 ml-auto">
+            <img class="mt-5" src="./Ariso/laptop-1.png" alt="img">
+          </div>
+
+        </div>
+      </div>
+    </header><!-- /.header -->
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Welcome
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section">
+        <div class="container">
+          <header class="section-header">
+            <small>Welcome</small>
+            <h2>Get a Better Understanding</h2>
+            <hr>
+            <p class="lead">Holisticly implement fully tested process improvements rather than dynamic internal.</p>
+          </header>
+
+
+
+          <div class="row gap-y">
+
+            <div class="col-md-8 mx-auto">
+              <img src="./Ariso/dribbble-9.gif" alt="..." data-aos="fade-up" data-aos-duration="2000" class="aos-init">
+            </div>
+
+
+            <div class="w-100"></div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-dark mr-5"><i class="icon-mobile"></i></div>
+                <div class="media-body">
+                  <h5>Responsive</h5>
+                  <p>Your website works on any device: desktop, tablet or mobile.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-primary mr-5"><i class="icon-gears"></i></div>
+                <div class="media-body">
+                  <h5>Customizable</h5>
+                  <p>You can easily read, edit, and write your own code, or change everything.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-info mr-5"><i class="icon-tools"></i></div>
+                <div class="media-body">
+                  <h5>UI Kit</h5>
+                  <p>There is a bunch of useful and necessary elements for developing your website.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-warning mr-5"><i class="icon-layers"></i></div>
+                <div class="media-body">
+                  <h5>Lego Base</h5>
+                  <p>You can find our code well organized, commented and readable.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-danger mr-5"><i class="icon-recycle"></i></div>
+                <div class="media-body">
+                  <h5>Clean Code</h5>
+                  <p>As you can see in the source code, we provided a clean code.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-xl-4">
+              <div class="media">
+                <div class="lead-6 line-height-1 text-success mr-5"><i class="icon-chat"></i></div>
+                <div class="media-body">
+                  <h5>Support</h5>
+                  <p>When you purchase this template, you'll freely receive future updates.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | CTA
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section py-7" style="background-color: #8ea6e6">
+        <div class="container">
+          <div class="row gap-y align-items-center">
+            <div class="col-md-9">
+              <h4 class="mb-0 text-white text-center text-md-left">Want a bite? You're in the right place!</h4>
+            </div>
+
+            <div class="col-md-3 text-center text-md-right">
+              <a class="btn btn-lg btn-round btn-light" href="#">Take a test drive</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Features
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section id="section-features" class="section bg-gray">
+        <div class="container">
+          <header class="section-header">
+            <small>Feature</small>
+            <h2>More to Discover</h2>
+            <hr>
+            <p class="lead">We waited until we could do it right. Then we did! Instead of creating a carbon copy.</p>
+          </header>
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-md-6 ml-auto">
+              <h4>Getting Started page</h4>
+              <p>As part of efforts to improve user onboarding, I shipped an experiment to a subset of new users showing them a Getting Started page immediately after signup to help them get to what we think are some of the most important actions for new users to take. We compared the subset of users against a control group to see whether such an experience improved engagement over a period of time.</p>
+            </div>
+
+            <div class="col-md-5 order-md-first">
+              <img class="rounded shadow-2" src="./Ariso/dribbble-6.png" alt="...">
+            </div>
+          </div>
+
+
+          <hr class="my-8">
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-md-6 mr-auto">
+              <h4>Outdated comments toggling</h4>
+              <p>Last week we shipped outdated comments...well, brought them back, actually. We used to show collapsed comments on outdated diffs as a single line, but removed that when we shipped code review recently. We brought that back last week with an improvement: you can now toggle open threads on outdated diffs in a review individually.</p>
+            </div>
+
+            <div class="col-md-5">
+              <img class="rounded shadow-2" src="./Ariso/dribbble-7.png" alt="...">
+            </div>
+          </div>
+
+
+          <hr class="my-8">
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-md-6 ml-auto">
+              <h4>Code review illustrations</h4>
+              <p>Less an illustration, and more a literal proxy. These show up when the feature's introduced. Monotonectally leverage existing standards compliant ideas with distributed data. Efficiently simplify cross-unit systems whereas adaptive testing. Monotonectally leverage existing standards compliant ideas with distributed data. Efficiently simplify cross-unit systems whereas adaptive testing.</p>
+            </div>
+
+            <div class="col-md-5 order-md-first">
+              <img class="rounded shadow-2" src="./Ariso/dribbble-8.png" alt="...">
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Pricing
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section id="section-pricing" class="section">
+        <div class="container">
+          <header class="section-header">
+            <small>Plans</small>
+            <h2>Pricing</h2>
+            <hr>
+            <p class="lead">Choose any of the following plans to get start with. You can start with the FREE plan to see our web application at first. You can always change your plan from your account.</p>
+          </header>
+
+
+          <div class="text-center my-7">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-round btn-outline-secondary w-150 active">
+                <input type="radio" name="pricing" value="monthly" autocomplete="off" checked=""> Monthly
+              </label>
+              <label class="btn btn-round btn-outline-secondary w-150">
+                <input type="radio" name="pricing" value="yearly" autocomplete="off"> Yearly
+              </label>
+            </div>
+          </div>
+
+
+          <div class="row gap-y text-center">
+
+            <div class="col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">Free</p>
+                <br>
+                <h2 class="price">0</h2>
+                <p class="small">&nbsp;</p>
+
+                <div class="text-muted">
+                  <small>1 Repository</small><br>
+                  <small>1 Private Project</small><br>
+                  <small>100 MB Attachment</small><br>
+                </div>
+
+                <br>
+                <p class="text-center py-3">
+                  <a class="btn btn-primary" href="#">Get started</a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="pricing-1 popular">
+                <p class="plan-name">Personal</p>
+                <br>
+                <h2 class="price text-success">
+                  <span class="price-unit">$</span>
+                  <span data-bind-radio="pricing" data-monthly="9" data-yearly="99">9</span>
+                  <span class="plan-period" data-bind-radio="pricing" data-monthly="/mo" data-yearly="/yr">/mo</span>
+                </h2>
+                <p class="small">&nbsp;</p>
+
+                <div class="text-muted">
+                  <small>1 Repository</small><br>
+                  <small>10 Private Project</small><br>
+                  <small>10 GB attachment</small><br>
+                </div>
+
+                <br>
+                <p class="text-center py-3">
+                  <a class="btn btn-success" href="?#monthly" data-bind-href="pricing" data-monthly="#monthly" data-yearly="#yearly">Get started</a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">Team</p>
+                <br>
+                <h2 class="price">
+                  <span class="price-unit">$</span>
+                  <span data-bind-radio="pricing" data-monthly="39" data-yearly="399">39</span>
+                  <span class="plan-period" data-bind-radio="pricing" data-monthly="/mo" data-yearly="/yr">/mo</span>
+                </h2>
+                <p class="small">&nbsp;</p>
+
+                <div class="text-muted">
+                  <small>5 Repository</small><br>
+                  <small>25 Private Project</small><br>
+                  <small>100 GB attachments</small><br>
+                </div>
+
+                <br>
+                <p class="text-center py-3">
+                  <a class="btn btn-primary" href="#monthly" data-bind-href="pricing" data-monthly="#monthly" data-yearly="#yearly">Get started</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Signup
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section bg-gray text-center">
+        <div class="container">
+
+          <header class="section-header">
+            <small>Try It Now</small>
+            <h2 class="lead-8"><strong>Get Started Free</strong></h2>
+            <hr>
+            <p class="lead">Sign up for free and become one of the millions of people around the world who have fallen in love with TheSaaS.</p>
+          </header>
+
+
+          <div class="row">
+            <form class="col-md-4 col-xl-4 mx-auto input-border">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Name">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input type="password" class="form-control form-control-lg" placeholder="Password">
+              </div>
+
+              <button class="btn btn-block btn-xl btn-success">Sign up</button>
+              <p class="small mt-3 opacity-70">or use your <a href="#">Facebook account</a></p>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-3 text-center text-md-left">
+            <a href="#"><img src="./Ariso/logo-dark.png" alt="logo"></a>
+          </div>
+
+          <div class="col-md-6">
+            <div class="nav nav-center">
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#">Policy</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-right">
+            <small>© 2020. All rights reserved.</small>
+          </div>
+
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+
+
+    <!-- Scripts -->
+    <script type="text/javascript" async="" src="./Ariso/f.txt"></script><script async="" src="./SaaS 1 — TheSaaS Sample Demo Landing Page_files/analytics.js.download"></script><script src="./Ariso/page.min.js.download"></script><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>
+    <script src="./Ariso/script.js.download"></script><div data-formito-id="91GdcdyvBtL5uwZS1yCR" data-trigger="fab" class="formito-app formito-trigger-fab">
+<div class="formito-modal">
+  <iframe src="./Ariso/saved_resource.html" frameborder="0" height="100%" width="100%" __idm_frm__="49"></iframe>
+</div>
+<div class="formito-launcher reveal">
+ 
+</svg></span></button>
+  
+  <div class="formito-radial"></div>
+</div>
+</div><script async="" src="./Ariso/ft.js.download"></script>
+
+  
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" __idm_frm__="51" src="./Ariso/saved_resource(1).html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div><div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div><script src="./Ariso/f(1).txt"></script><iframe src="./Ariso/pixel.html" style="display: none;"></iframe></body></html>
